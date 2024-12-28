@@ -37,9 +37,11 @@ void periodic_measurement_callback(void *args)
     ESP_LOGI(TAG, "ACC => x= %f, y= %f, z= %f", acc.x, acc.y, acc.z);
     if (acc.z < 0)
     {
+        ESP_LOGI(TAG, "tarjeta está boca abajo");
         led_strip_set_pixel(led_strip, 0, 16, 0, 0);
         led_strip_refresh(led_strip);
     } else {
+        ESP_LOGI(TAG, "tarjeta está boca arriba");
         led_strip_set_pixel(led_strip, 0, 0, 0, 16);
         led_strip_refresh(led_strip);
     }
