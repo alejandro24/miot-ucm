@@ -1,6 +1,6 @@
 ---
 title: Práctica 5. El protocolo MQTT
-author: Pablo C. Alcalde
+author: Pablo C. Alcalde, Alejandro de Celis
 ...
 
 # Tarea 1
