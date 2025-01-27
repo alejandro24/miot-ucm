@@ -32,6 +32,9 @@ Se ejecutan todos juntos al volver del _light-sleep_, salvo uno que a veces entr
 
 # Tareas
 > Modifica el código anterior para que, tras 5 pasos por _light-sleep_, pasemos a _deep-sleep_. Incluye código para determinar el motivo por el que hemos despertado de deep-sleep y muestralo por pantalla.
+>Hemos incluido el fragmento de código necesario 
+> <img width="341" alt="image" src="https://github.com/user-attachments/assets/f0402fb9-09d4-428f-ae78-87c94ebd2288" />
+
 
 ## Cuestión
 
