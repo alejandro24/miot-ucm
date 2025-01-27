@@ -1,7 +1,17 @@
 ---
 title: Práctica 5. Uso de ADC.
-author: Pablo C. Alcalde
+author: Pablo C. Alcalde & Alejandro de Celis
 ...
+# Voltaje a distancia
+**Una vez conseguido el voltaje que está devolviendo el sensor, ¿qué expresión usarás en el código para obtener la distancia en centímetros?**
+
+Utilizamos la siguiente 
+
+
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/da71d398-4c25-4b33-b7df-f5e93a5c7780" />
+
+
+
 # Requisitos
 > Usaremos el sensor de distancia GP2Y0A41SK0F de Sharp conectado al ADC de ESP32. Deberás conectar la alimentación del senor al pin de 5V del ESP32, las tierras en común y el cable de medida a un pin GPIO del ESP32 que configurarás para usar un canal de ADC.
 >
