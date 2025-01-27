@@ -1,6 +1,6 @@
 ---
 title: Práctica 3. Programación con tareas y eventos en ESP-IDF
-author: Pablo C. Alcalde
+author: Pablo C. Alcalde y Alejandro de Celis
 ---
 # Funcionamiento
 
