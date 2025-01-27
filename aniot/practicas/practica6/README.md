@@ -23,6 +23,7 @@ Según los esquemáticos de la placa, al pulsar el botón se abre el paso de cor
 
 # Tareas
 > Incluir un timer en el código. La aplicación arrancará, configurará un timer para que se ejecute su callback cada 0.5 segundos, y se dormirá durante 3 segundos (con vTaskDelay()). Tras despertar del delay, pasará a light-sleep (configuraremos el mecanismo de despertar para que lo haga en 5 segundos, si no usamos el GPIO correspondiente). El callback del timer simplemente imprimirá un mensaje que incluirá el valor devuelto por `esp_timer_get_time()`.
+>
 > Fragmento de código incluido en el fichero timer_wakeup.c.
 
 ## Cuestión
@@ -33,6 +34,8 @@ Se ejecutan todos juntos al volver del _light-sleep_, salvo uno que a veces entr
 # Tareas
 > Modifica el código anterior para que, tras 5 pasos por _light-sleep_, pasemos a _deep-sleep_. Incluye código para determinar el motivo por el que hemos despertado de deep-sleep y muestralo por pantalla.
 >Hemos incluido el fragmento de código necesario 
+>
+>El siguiente fragmento de código se ha añadido en el fichero: light_sleep_example_main.c.
 > <img width="341" alt="image" src="https://github.com/user-attachments/assets/f0402fb9-09d4-428f-ae78-87c94ebd2288" />
 
 
