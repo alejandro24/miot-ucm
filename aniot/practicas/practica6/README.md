@@ -23,6 +23,7 @@ Según los esquemáticos de la placa, al pulsar el botón se abre el paso de cor
 
 # Tareas
 > Incluir un timer en el código. La aplicación arrancará, configurará un timer para que se ejecute su callback cada 0.5 segundos, y se dormirá durante 3 segundos (con vTaskDelay()). Tras despertar del delay, pasará a light-sleep (configuraremos el mecanismo de despertar para que lo haga en 5 segundos, si no usamos el GPIO correspondiente). El callback del timer simplemente imprimirá un mensaje que incluirá el valor devuelto por `esp_timer_get_time()`.
+> Fragmento de código incluido en el fichero timer_wakeup.c.
 
 ## Cuestión
 > ¿Qué observas en la ejecución de los timer?¿Se ejecutan en el instante adecuado? ¿Se pierde alguno?
