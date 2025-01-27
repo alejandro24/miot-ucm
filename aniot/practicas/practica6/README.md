@@ -1,6 +1,6 @@
 ---
 title: Práctica 6. Modos de bajo consumo.
-author: Pablo C. Alcalde
+author: Pablo C. Alcalde & Alejandro de Celis
 ---
 
 # Tarea 1
