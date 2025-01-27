@@ -15,7 +15,7 @@ Se adjunta un [programa](./nvs_rw_value/main/nvs_value_example_main.c) que guard
 ## Cuestión
 > ¿Qué número de GPIO está configurado por defecto para despertar al sistema? ¿Está conectado dicho GPIO a algún elemento de la placa ESP Devkit-c que estamos usando? Puedes tratar de responder consultando el esquemático de la placa
 
-Está configurado de serie para usar el `GPIO 0` que se 
+Está configurado de serie para usar el `GPIO 0`.
 
 > ¿Qué flanco provocará que salgamos de light-sleep tras configurar el GPIO con gpio_wakeup_enable(GPIO_WAKEUP_NUM, GPIO_WAKEUP_LEVEL == 0 ? GPIO_INTR_LOW_LEVEL : GPIO_INTR_HIGH_LEVEL)?
 
